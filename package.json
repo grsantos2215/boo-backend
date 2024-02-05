@@ -1,0 +1,28 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "watch": "nodemon app.js",
+        "start": "node app.js",
+        "test": "mocha --timeout 10000 tests/*.test.mjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.1",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "mongodb": "^6.3.0",
+        "mongodb-memory-server": "^9.1.6"
+    },
+    "devDependencies": {
+        "chai": "^5.0.3",
+        "chai-http": "^4.4.0",
+        "mocha": "^10.2.0",
+        "nodemon": "^3.0.3",
+        "supertest": "^6.3.4"
+    }
+}
